@@ -6,14 +6,14 @@ import {
   MenuItem,
 } from "@material-tailwind/react";
 
-function InteractionScreen() {
+function LanguageMenu() {
   return (
-    <div className="absolute inset-y-0 right-0 w-7/12">
+    <div className="absolute inset-y-0 right-10 w-6/12">
       <p className="text-right">
         <Menu>
           <MenuHandler>
-            <Button className="top-0 right-0">
-              <h4 className="text-textGreen">Sprache</h4>
+            <Button className="top-0 right-0 h-10 border-1 border-textGreen text-textGreen">
+              Sprache
             </Button>
           </MenuHandler>
           <MenuList className="bg-backingGreen h-40 w-40">
@@ -28,4 +28,4 @@ function InteractionScreen() {
   );
 }
 
-export default InteractionScreen;
+export default LanguageMenu;

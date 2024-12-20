@@ -8,7 +8,7 @@ export default {
       backingGreen: '#ecfccb',
       switchGreen: '#bef264',
       switchButton: '#e49f1e',
-      textGreen:'#268e3d',
+      textGreen: '#268e3d',
     }
   },
   plugins: [],

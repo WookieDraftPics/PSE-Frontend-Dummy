@@ -1,4 +1,4 @@
-import InteractionScreen from "./InteractionScreen";
+import InteractionScreen from "./interactionScreen/InteractionScreen";
 import SwitchScreen from "./SwitchScreen";
 
 function LoginPage() {
