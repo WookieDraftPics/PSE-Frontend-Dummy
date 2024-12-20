@@ -1,6 +1,6 @@
 import React from "react";
 
-interface Prpos {
+interface Props {
   item: string;
 }
 

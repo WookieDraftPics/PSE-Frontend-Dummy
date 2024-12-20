@@ -1,14 +1,12 @@
-import PrimButton from "./components/login/PrimButton";
-import GuestButton from "./components/login/GuestButton";
-import PasswdReset from "./components/login/PasswdReset";
+import "./App.css";
+import LoginPage from "./components/login/LoginPage";
 
-//<PrimButton item={"Login"} />
-//<PrimButton item={"Create Account"} />
-//<GuestButton />
-//<PasswdReset />
 function App() {
-  let loginName = "Login";
-  return <div></div>;
+  return (
+    <div>
+      <LoginPage />
+    </div>
+  );
 }
 
 export default App;

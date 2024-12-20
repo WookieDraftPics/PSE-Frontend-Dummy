@@ -4,7 +4,12 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    colors: {
+      backingGreen: '#ecfccb',
+      switchGreen: '#bef264',
+      switchButton: '#e49f1e',
+      textGreen:'#268e3d',
+    }
   },
   plugins: [],
 }
