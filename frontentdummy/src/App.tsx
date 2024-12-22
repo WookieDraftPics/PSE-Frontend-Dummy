@@ -3,7 +3,7 @@ import LoginPage from "./components/login/LoginPage";
 
 function App() {
   return (
-    <div>
+    <div className="dark:bg-black">
       <LoginPage />
     </div>
   );
