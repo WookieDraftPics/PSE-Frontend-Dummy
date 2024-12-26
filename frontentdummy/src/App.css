@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+footer{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }

@@ -5,7 +5,11 @@ interface Props {
 }
 
 const PrimButton = ({ item }: Props) => {
-  return <button className="btn btn-primary">{item}</button>;
+  return (
+    <button className="bg-primButton w-40 border border-black rounded-full text-xl">
+      {item}
+    </button>
+  );
 };
 
 export default PrimButton;

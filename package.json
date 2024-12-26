@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "@types/node": "^22.10.2"
+  },
+  "dependencies": {
+    "i18next": "^24.2.0",
+    "react-i18next": "^15.2.0"
   }
 }
