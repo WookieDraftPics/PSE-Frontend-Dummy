@@ -1,12 +1,33 @@
 import { useState } from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import LoginPage from "./components/login/LoginPage";
+import LoginPage from "./pages/LoginPage";
+import Register from "./pages/Register";
+import DummyOverview from "./pages/DummyOverview";
+import DummyEditor from "./pages/DummyEditor";
+
+function chooseIndexPath() {
+  return <LoginPage />;
+}
+//TODO: password reset extra route or component reload?
+//TODO: when routing with guest button => show random guest user id
+//TODO: when routing with valid(default) login => show user data
+//TODO: finish account creation
+//TODO: add state for routing
+//TODO: put everything into a component diagram
 
 function App() {
   return (
-    <div className="dark:bg-darkmodeBackground">
-      <LoginPage />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={chooseIndexPath()} />
+        <Route index element={chooseIndexPath()} />
+        <Route path="/create-account" element={<Register />} />
+        <Route path="/overview" element={<DummyOverview />} />
+        <Route path="/editor" element={<DummyEditor />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

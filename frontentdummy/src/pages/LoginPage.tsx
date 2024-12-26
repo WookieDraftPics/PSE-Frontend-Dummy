@@ -1,5 +1,5 @@
-import InteractionScreen from "./interactionScreen/InteractionScreen";
-import SwitchScreen from "./SwitchScreen";
+import InteractionScreen from "../components/login/interactionScreen/InteractionScreen";
+import SwitchScreen from "../components/login/SwitchScreen";
 
 function LoginPage() {
   return (
