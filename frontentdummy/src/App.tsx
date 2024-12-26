@@ -6,6 +6,7 @@ import LoginPage from "./pages/LoginPage";
 import Register from "./pages/Register";
 import DummyOverview from "./pages/DummyOverview";
 import DummyEditor from "./pages/DummyEditor";
+import PasswdRecovery from "./pages/PasswdRecovery";
 
 function chooseIndexPath() {
   return <LoginPage />;
@@ -16,6 +17,7 @@ function chooseIndexPath() {
 //TODO: finish account creation
 //TODO: add state for routing
 //TODO: put everything into a component diagram
+//TODO: fix hooks apparently => console in browser
 
 function App() {
   return (
@@ -23,9 +25,10 @@ function App() {
       <Routes>
         <Route path="/" element={chooseIndexPath()} />
         <Route index element={chooseIndexPath()} />
-        <Route path="/create-account" element={<Register />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/overview" element={<DummyOverview />} />
         <Route path="/editor" element={<DummyEditor />} />
+        <Route path="/recovery" element={<PasswdRecovery />} />
       </Routes>
     </BrowserRouter>
   );
