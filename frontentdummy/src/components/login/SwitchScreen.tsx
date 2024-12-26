@@ -1,4 +1,4 @@
-function SwitchScreen() {
+const SwitchScreen = () => {
   return (
     <div className="absolute rounded-lg inset-y-0 left-0 w-5/12 bg-switchGreen shadow">
       <div className="absolute inset-x-0 bottom-0 left-16 w-4/6 h-2/3">
@@ -18,6 +18,6 @@ function SwitchScreen() {
       </div>
     </div>
   );
-}
+};
 
 export default SwitchScreen;
