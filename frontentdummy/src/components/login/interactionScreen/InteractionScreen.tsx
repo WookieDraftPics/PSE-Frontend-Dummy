@@ -34,7 +34,7 @@ const InteractionScreen = () => {
       <br></br>
       <br></br>
       <p className="text-center">
-        <PrimButton item={"Anmelden"} />
+        <PrimButton content="Anmelden" route="/overview" />
       </p>
       <br></br>
       <p className="text-center">

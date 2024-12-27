@@ -8,6 +8,8 @@ import DummyOverview from "./pages/DummyOverview";
 import DummyEditor from "./pages/DummyEditor";
 import PasswdRecovery from "./pages/PasswdRecovery";
 
+import { useTranslation } from "react-i18next";
+
 function chooseIndexPath() {
   return <LoginPage />;
 }
@@ -20,17 +22,25 @@ function chooseIndexPath() {
 //TODO: fix hooks apparently => console in browser
 
 function App() {
+  const { t } = useTranslation();
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={chooseIndexPath()} />
-        <Route index element={chooseIndexPath()} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/overview" element={<DummyOverview />} />
-        <Route path="/editor" element={<DummyEditor />} />
-        <Route path="/recovery" element={<PasswdRecovery />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="...">
+      {/* We pass the key we provided under
+          `resources.translation` in 
+          src/i18n/config.ts */}
+      <h2>{t("hello_world")}</h2>
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={chooseIndexPath()} />
+          <Route index element={chooseIndexPath()} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/overview" element={<DummyOverview />} />
+          <Route path="/editor" element={<DummyEditor />} />
+          <Route path="/recovery" element={<PasswdRecovery />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 

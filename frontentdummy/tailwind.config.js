@@ -6,6 +6,7 @@ export default {
   theme: {
     colors: {
       backingGreen: '#ecfccb',
+      backingGreenHigh: '#ebf8c9',
       switchGreen: '#bef264',
       primButton:'#e49f1e',
       switchButton: '#e49f1e',
@@ -16,6 +17,7 @@ export default {
       black: '#000000',
       gray: '#958f8f',
       darkmodeBackground: '#142707',
+      linkBlue: '#309ae5'
     }
   },
   plugins: [],

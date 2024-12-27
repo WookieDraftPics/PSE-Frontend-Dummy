@@ -1,13 +1,18 @@
-import React from "react";
+import { useNavigate } from "react-router-dom";
 
 interface Props {
-  item: string;
+  content: string;
+  route: string;
 }
 
-const PrimButton = ({ item }: Props) => {
+const PrimButton = ({ content, route }: Props) => {
+  const navigate = useNavigate();
   return (
-    <button className="bg-primButton w-40 border border-black rounded-full text-xl">
-      {item}
+    <button
+      className="bg-primButton w-40 border border-black rounded-full text-xl"
+      onClick={() => navigate(route)}
+    >
+      {content}
     </button>
   );
 };

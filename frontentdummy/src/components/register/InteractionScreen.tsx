@@ -13,7 +13,7 @@ const InteractionScreen = () => {
         <InputField title="Passwort" placeHolder="**********" />
         <InputField title="Passwort wiederholen" placeHolder="**********" />
       </div>
-      <PrimButton item="Registrieren" />
+      <PrimButton content="Registrieren" route="/overview" />
       <br></br>
       <br></br>
       <p className="text-center">

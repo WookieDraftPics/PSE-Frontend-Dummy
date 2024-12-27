@@ -6,6 +6,7 @@ const localeList = [
   { name: "中文", code: "zh", lang: "Chinese" },
   { name: "русский", code: "ru", lang: "Russian" },
   { name: "Française", code: "fr", lang: "French" },
+  { name: "Arabic", code: "ar", lang: "Arabic" },
 ];
 
 function LanguageMenu() {
