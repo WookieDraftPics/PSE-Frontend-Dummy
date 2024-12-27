@@ -1,8 +1,8 @@
-import GuestButton from "../buttons/GuestButton";
-import PasswdReset from "../buttons/PasswdReset";
-import PrimButton from "../buttons/PrimButton";
+import GuestButton from "../../buttons/GuestButton";
+import PasswdReset from "../../buttons/PasswdReset";
+import PrimButton from "../../buttons/PrimButton";
 import LanguageMenu from "./LanguageMenu";
-import InputField from "../buttons/input";
+import InputField from "../../buttons/input";
 
 import LingoLinkIcon from "/assets/LingoLinkIcon.svg";
 
