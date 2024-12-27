@@ -5,8 +5,10 @@ import InputField from "../../buttons/input";
 
 import LingoLinkIcon from "/assets/LingoLinkIcon.svg";
 import LocaleSwitcher from "../../../i18n/LocaleSwitcher";
+import { useTranslation } from "react-i18next";
 
 const InteractionScreen = () => {
+  const { t } = useTranslation();
   return (
     <div className="absolute right-8 top-10 w-6/12">
       <LocaleSwitcher />
@@ -15,18 +17,15 @@ const InteractionScreen = () => {
           <img src={LingoLinkIcon} alt="Logo" className="object-fill"></img>
         </div>
         <div className="col-span-5">
-          <h1 className="text-left text-5xl">Login</h1>
+          <h1 className="text-left text-5xl">{t("login")}</h1>
         </div>
       </div>
       <br></br>
       <br></br>
       <br></br>
       <div className="grid gap-6 mb-6 md:grid-cols-1">
-        <InputField
-          title="Benutzername/E-Mail"
-          placeHolder="Tano/tano@email.de"
-        />
-        <InputField title="Passwort" placeHolder="**********" />
+        <InputField title={t("userName")} placeHolder="Tano/tano@email.de" />
+        <InputField title={t("password")} placeHolder="**********" />
       </div>
       <div>
         <PasswdReset />
@@ -34,7 +33,7 @@ const InteractionScreen = () => {
       <br></br>
       <br></br>
       <p className="text-center">
-        <PrimButton content="Anmelden" route="/overview" />
+        <PrimButton content={t("login")} route="/overview" />
       </p>
       <br></br>
       <p className="text-center">
