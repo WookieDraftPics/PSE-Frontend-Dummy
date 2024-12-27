@@ -1,0 +1,11 @@
+{
+    "login": "Login",
+    "userName": "Nome utente",
+    "password": "Password",
+    "forgot_password": "Ha dimenticato la password?",
+    "continue_as_guest": "Continua come ospite",
+    "or": "O",
+    "register":"Registro",
+    "new_here": "Nuovo qui?",
+    "switch_screen_text": "Allora crea subito il tuo account e unisciti al tuo primo progetto multilingue!"
+}

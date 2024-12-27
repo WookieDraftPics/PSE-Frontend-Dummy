@@ -8,6 +8,21 @@ import HttpApi from "i18next-http-backend";
 // re-render when language changes.
 import { initReactI18next } from "react-i18next";
 
+// Add names for each locale to
+// show the user in our locale
+// switcher.
+export const supportedLngs = {
+  en: "English",
+  de: "Deutsch",
+  es: "Español",
+  fr: "Français",
+  it: "Italiano",
+  nl: "Nederlands",
+  pt: "Português",
+  vn: "tiếng Việt",
+  zh: "中文",
+};
+
 i18n
 
   // Wire up the backend as a plugin.
@@ -28,6 +43,10 @@ i18n
     // missing in the active locale. Again, use your
     // preferred locale here. 
     fallbackLng: "de",
+
+    // Explicitly tell i18next our
+    // supported locales.
+    supportedLngs: Object.keys(supportedLngs),
 
     // Enables useful output in the browser’s
     // dev console.

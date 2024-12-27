@@ -1,15 +1,15 @@
 import GuestButton from "../../buttons/GuestButton";
 import PasswdReset from "../../buttons/PasswdReset";
 import PrimButton from "../../buttons/PrimButton";
-import LanguageMenu from "./LanguageMenu";
 import InputField from "../../buttons/input";
 
 import LingoLinkIcon from "/assets/LingoLinkIcon.svg";
+import LocaleSwitcher from "../../../i18n/LocaleSwitcher";
 
 const InteractionScreen = () => {
   return (
     <div className="absolute right-8 top-10 w-6/12">
-      <LanguageMenu />
+      <LocaleSwitcher />
       <div className="grid grid-cols-6 gap-1 relative h-1/12 top-10">
         <div className="border border-switchGreen">
           <img src={LingoLinkIcon} alt="Logo" className="object-fill"></img>
