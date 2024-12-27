@@ -5,8 +5,8 @@ const GuestButton = () => {
   const navigate = useNavigate();
   console.log("test 1");
   return (
-    <div>
-      <p>------ODER------</p>
+    <span>
+      <span>------ODER------</span>
       <br></br>
       <button
         className="bg-guestButton w-80 h-10 text-3xl text-textGrayish rounded-full border border-black "
@@ -14,7 +14,7 @@ const GuestButton = () => {
       >
         Weiter als Gast
       </button>
-    </div>
+    </span>
   );
 };
 
