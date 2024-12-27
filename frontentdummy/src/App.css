@@ -1,4 +1,9 @@
 @tailwind base;
+@layer base {
+  html {
+    @apply noto-sans;
+  }
+}
 @tailwind components;
 @tailwind utilities;
 
@@ -8,3 +13,13 @@ footer{
     flex-direction: column;
     justify-content: center;
   }
+
+
+  
+  .noto-sans {
+    @apply font-normal not-italic;
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
+  }
+  

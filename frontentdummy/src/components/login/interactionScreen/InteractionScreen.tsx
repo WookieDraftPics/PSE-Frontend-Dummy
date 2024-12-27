@@ -23,7 +23,7 @@ const InteractionScreen = () => {
       <br></br>
       <br></br>
       <br></br>
-      <div className="grid gap-6 mb-6 md:grid-cols-1">
+      <div className="grid gap-6 mb-6 md:grid-cols-1 noto-sans">
         <InputField title={t("userName")} placeHolder="Tano/tano@email.de" />
         <InputField title={t("password")} placeHolder="**********" />
       </div>
