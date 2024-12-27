@@ -37,7 +37,7 @@ i18n
     // when a user visits our site for the first time.
     // We use English here, but feel free to use
     // whichever locale you want.                   
-    lng: "en",
+    lng: "zh",
 
     // Fallback locale used when a translation is
     // missing in the active locale. Again, use your
