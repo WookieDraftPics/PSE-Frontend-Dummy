@@ -36,7 +36,8 @@ i18n
     // Specifies the default language (locale) used
     // when a user visits our site for the first time.
     // We use English here, but feel free to use
-    // whichever locale you want.                   
+    // whichever locale you want.       
+    // temporarily set to chinese for font testing            
     lng: "zh",
 
     // Fallback locale used when a translation is

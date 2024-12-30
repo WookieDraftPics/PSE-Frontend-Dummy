@@ -18,7 +18,16 @@ export default {
       gray: '#958f8f',
       darkmodeBackground: '#142707',
       linkBlue: '#309ae5'
-    }
+    },
+    
+    fontFamily: {
+      noto: [
+        '"Segoe UI"',
+        'Roboto',
+        'sans-serif',
+      ],
+    },
+    
   },
   plugins: [],
 }

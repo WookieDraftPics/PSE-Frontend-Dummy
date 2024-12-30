@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 interface Props {
   content: string;
   route: string;
+  clickHandler: CallableFunction;
 }
 
 const PrimButton = ({ content, route }: Props) => {
