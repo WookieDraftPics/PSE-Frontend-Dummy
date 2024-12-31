@@ -5,6 +5,7 @@ export default {
   ],
   theme: {
     colors: {
+      backgroundGreen: '#f3fcf4',
       backingGreen: '#ecfccb',
       switchGreen: '#bef264',
       switchButton: '#e49f1e',
