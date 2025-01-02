@@ -3,7 +3,7 @@ import "./App.css";
 import LoginPage from "./pages/LoginPage";
 import Register from "./pages/Register";
 import DummyOverview from "./pages/DummyOverview";
-import DummyEditor from "./pages/DummyEditor";
+import Editor from "./pages/Editor";
 import PasswdRecovery from "./pages/PasswdRecovery";
 
 function chooseIndexPath() {
@@ -25,7 +25,7 @@ function App() {
         <Route index element={chooseIndexPath()} />
         <Route path="/register" element={<Register />} />
         <Route path="/overview" element={<DummyOverview />} />
-        <Route path="/editor" element={<DummyEditor />} />
+        <Route path="/editor" element={<Editor />} />
         <Route path="/recovery" element={<PasswdRecovery />} />
       </Routes>
     </BrowserRouter>
