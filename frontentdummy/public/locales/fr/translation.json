@@ -1,11 +1,16 @@
 {
     "login": "Login",
     "userName": "Nom d'utilisateur",
+    "e-mail_adress": "E-Mail Adresse",
     "password": "Mot de passe",
+    "repeat_password": "Répéter le mot de passe",
     "forgot_password": "Mot de passe oublié ?",
+    "reset_password": "Répéter le mot de passe",
+    "send": "Soumettre",
     "continue_as_guest": "Continuer en tant qu'invité",
     "or": "OU",
     "register":"Registre",
     "new_here": "Nouveau ici?",
-    "switch_screen_text": "Alors créez votre propre compte maintenant et rejoignez votre premier projet multilingue !"
+    "switch_screen_text": "Alors créez votre propre compte maintenant et rejoignez votre premier projet multilingue !",
+    "already_registered": "Vous avez déjà un compte"
 }
