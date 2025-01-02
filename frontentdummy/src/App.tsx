@@ -9,7 +9,7 @@ import PasswdRecovery from "./pages/PasswdRecovery";
 function chooseIndexPath() {
   return <LoginPage />;
 }
-//TODO: password reset extra route or component reload?
+//password reset extra route or component reload? -> extra route for now
 //TODO: when routing with guest button => show random guest user id
 //TODO: when routing with valid(default) login => show user data
 //TODO: finish account creation
