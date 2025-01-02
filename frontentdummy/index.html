@@ -3,23 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style>
-      .rectangle {
-        height: 500px;
-        width: 1000px;
-        background-color: #f0f8ff;
-        margin: 0 auto;
-      }
-    </style>
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet"></head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <!--<div class="rectangle"></div>
-    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-n   <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.snow.css" rel="stylesheet">
 
+    <script>
+      const quill = new Quill('#editor', {
+        theme: 'snow'
+      });
+    </script>
   </body>
 </html>

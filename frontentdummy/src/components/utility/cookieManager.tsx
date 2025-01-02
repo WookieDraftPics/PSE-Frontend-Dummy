@@ -18,7 +18,7 @@ export function getCookie(name: string) {
   const parts = value.split("; " + name + "=");
 
   if (parts.length === 2) {
-    const ppop = parts.pop(); //bec<use pop might return undeifned(even tho the if clause should ürevent that)
+    const ppop = parts.pop(); //because pop might return undeifned(even tho the if clause should ürevent that)
     if (ppop) {
       return ppop.split(";").shift();
     }
