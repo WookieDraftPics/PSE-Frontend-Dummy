@@ -1,4 +1,5 @@
 import { useState } from "react";
+//!!!!this is an old implementation of the language menu without translatio but still functional!!!!
 
 const defaultLocale = localStorage["locale"] ? localStorage["locale"] : "en"; // English is default locale if none is set
 const localeList = [

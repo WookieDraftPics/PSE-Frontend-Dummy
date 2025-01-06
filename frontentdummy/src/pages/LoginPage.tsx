@@ -1,4 +1,4 @@
-import InteractionScreen from "../components/login/interactionScreen/InteractionScreen";
+import InteractionScreen from "../components/login/InteractionScreen";
 import SwitchScreen from "../components/login/SwitchScreen";
 
 import { useTranslation } from "react-i18next";

@@ -38,7 +38,7 @@ i18n
     // We use English here, but feel free to use
     // whichever locale you want.       
     // temporarily set to chinese for font testing            
-    lng: "en",
+    lng: "de",
 
     // Fallback locale used when a translation is
     // missing in the active locale. Again, use your

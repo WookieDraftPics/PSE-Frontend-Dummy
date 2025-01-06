@@ -1,11 +1,17 @@
 {
     "login": "Conecte-se",
     "userName": "Nome de utilizador",
+    "e-mail_adress": "Endereço de email",
     "password": "Palavra-passe",
+    "repeat_password": "Repetir senha",
     "forgot_password": "Esqueceu-se da sua senha?",
+    "reset_password": "Redefinir senha",
+    "send": "Enviar",
     "continue_as_guest": "Continuar como convidado",
     "or": "OU",
     "register":"Cadastre-se",
+    "create_account": "Criar uma conta",
     "new_here": "Novo por aqui?",
-    "switch_screen_text": "Por isso, crie já a sua própria conta e junte-se ao seu primeiro projeto multilingue!"
+    "switch_screen_text": "Por isso, crie já a sua própria conta e junte-se ao seu primeiro projeto multilingue!",
+    "already_registered": "Você já tem uma conta?"
 }
