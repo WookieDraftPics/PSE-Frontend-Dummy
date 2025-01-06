@@ -13,7 +13,7 @@ const InteractionScreen = () => {
         <InputField type="text" identifier={"ruserName"} title={t("userName")} placeHolder="Tano" />
         <InputField type="email" identifier="remail" title={t("e-mail_adress")} placeHolder="tano@example.de" />
         <InputField type="password" identifier="rpasswd" title={t("password")} placeHolder="**********" />
-        <InputField type="password" identifier="rforgot_passwd" title={t("repeat_password")} placeHolder="**********" />
+        <InputField type="text" identifier="rforgot_passwd" title={t("repeat_password")} placeHolder="**********" />
       </div>
       <PrimButton content={t("register")} route="/overview" />
       <br></br>
