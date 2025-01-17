@@ -1,12 +1,9 @@
 import "./Overview.css";
-
-
-
-
+import ExistingDoc from "../components/overview/existingDoc";
 
 function Overview() {
     return(
-        <div className="bg-backgroundGreen">
+        <div className="bg-backgroundGreen pb-10">
             <div id="wrapper">
                 {/* Icons */}
                 <figure>
@@ -32,7 +29,20 @@ function Overview() {
                     <img className="imageOnRight" src="\src\assets\images\blank-profile-picture.png"></img>
                 </div>
             </div>
+            {/* Border */}
+            <div className="line"/>
 
+            {/* Document Overview */}
+                <div id = "wrapper">
+                    {/* new Document */}
+                    <img className="newDoc" src="\src\assets\images\plus-icon.png"></img>
+                
+                {/* existing Documents 
+                    -> repeat for each Doc later -> fix alignment
+                    (if 5< in line -> new line) */}
+                    <ExistingDoc/>
+                    <ExistingDoc/>
+                </div>
         </div>
     );
 }

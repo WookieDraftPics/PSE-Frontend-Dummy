@@ -1,0 +1,87 @@
+#wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    height: 50px;
+    width: auto;
+ 
+}
+
+.imageOnRight {
+    height: 50px;
+    width: auto;
+    align-content: end;
+
+}
+
+figure {
+    height: 100%;
+}
+
+.searchBar {
+    overflow: hidden;
+    margin: auto;
+}
+
+.searchBar input[type=text] {
+    float: right;
+  padding: 6px;
+  border: 2px solid;
+  border-color: #949e96;
+  font-size: 16px;
+}
+
+.centerRight {
+    margin-right: 10px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.textOnRight {
+    text-align: end;
+    width: 150px;
+}
+
+.line {
+    border: 1px solid;
+    border-color: #949e96;
+}
+
+.newDoc {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 170px;
+    width: 130px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid;
+    border-color: #949e96;
+}
+
+.existingDoc {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 170px;
+    width: 130px;
+    border: 2px solid;
+    border-color: #949e96;
+}
+
+.settingsImg {
+    padding-top: 7px;
+    height: 25px;
+}
+
+.DocName {
+    font-size: small;
+}
+
+.DocDate {
+    font-size:xx-small;
+    padding-bottom: 2px;
+}
