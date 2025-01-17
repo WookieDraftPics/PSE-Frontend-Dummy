@@ -1,0 +1,17 @@
+{
+    "login": "Einloggen",
+    "userName": "Benutzername",
+    "e-mail_adress": "E-Mail Adresse",
+    "password": "Passwort",
+    "repeat_password": "Passwort wiederholen",
+    "forgot_password": "Passwort vergessen?",
+    "reset_password": "Passwort zurücksetzen",
+    "send": "Send",
+    "continue_as_guest": "Weiter als Gast",
+    "or": "ODER",
+    "register":"Registrieren",
+    "create_account": "Account Erstellen",
+    "new_here": "Neu hier?",
+    "switch_screen_text": "Dann erstelle dir jetzt deinen eigenen Account und tritt deinem ersten Mehrsprachenprojekt bei!",
+    "already_registered": "Du hast schon einen Acocunt?"
+}

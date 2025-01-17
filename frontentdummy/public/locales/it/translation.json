@@ -1,0 +1,17 @@
+{
+    "login": "Login",
+    "userName": "Nome utente",
+    "e-mail_adress": "Indirizzo e-mail",
+    "password": "Password",
+    "repeat_password": "Ripeti la password",
+    "forgot_password": "Ha dimenticato la password?",
+    "reset_password": "Reimposta password",
+    "send": "Invia",
+    "continue_as_guest": "Continua come ospite",
+    "or": "O",
+    "register":"Registro",
+    "create_account": "Creare un account",
+    "new_here": "Nuovo qui?",
+    "switch_screen_text": "Allora crea subito il tuo account e unisciti al tuo primo progetto multilingue!",
+    "already_registered": "Hai già un account?"
+}

@@ -1,0 +1,17 @@
+{
+    "login": "Login",
+    "userName": "Username",
+    "e-mail_adress": "E-mail Adress",
+    "password": "Password",
+    "repeat_password": "Repeat password",
+    "forgot_password": "Forgot password?",
+    "reset_password": "Reset password",
+    "send": "Submit",
+    "continue_as_guest": "Contintue as guest",
+    "or": "OR",
+    "register":"Register",
+    "create_account": "Create Account",
+    "new_here": "New here?",
+    "switch_screen_text": "Then create your own account now and join your first multilingual project!",
+    "already_registered": "Already registered?"
+}

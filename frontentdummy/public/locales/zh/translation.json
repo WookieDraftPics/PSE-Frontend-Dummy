@@ -1,0 +1,17 @@
+{
+    "login": "登录",
+    "userName": "用户名",
+    "e-mail_adress": "电子邮件",
+    "password": "密码",
+    "repeat_password": "重复密码",
+    "forgot_password": "忘记密码？",
+    "reset_password": "重置密码",
+    "send": "提交",
+    "continue_as_guest": "以访客身份继续",
+    "or": "或者",
+    "register":"登记",
+    "create_account": "创建账户",
+    "new_here": "新来的吗？",
+    "switch_screen_text": "那么现在就创建您自己的帐户并加入您的第一个多语言项目！",
+    "already_registered": "您已经有帐户了吗？"
+}

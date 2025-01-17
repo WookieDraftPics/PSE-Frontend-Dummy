@@ -1,0 +1,17 @@
+{
+    "login": "Login",
+    "userName": "Gebruikersnaam",
+    "e-mail_adress": "E-mailadres",
+    "password": "Wachtwoord",
+    "repeat_password": "Herhaal wachtwoord",
+    "forgot_password": "Wachtwoord vergeten?",
+    "reset_password": "Wachtwoord opnieuw instellen",
+    "send": "Indienen",
+    "continue_as_guest": "Doorgaan als gast",
+    "or": "OF",
+    "register":"Register",
+    "create_account": "Account aanmaken",
+    "new_here": "Nieuw hier?",
+    "switch_screen_text": "Maak dan nu uw eigen account aan en doe mee aan uw eerste meertalige project!",
+    "already_registered": "Heeft u al een account?"
+}

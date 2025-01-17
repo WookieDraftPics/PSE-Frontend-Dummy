@@ -1,30 +1,42 @@
-import {
-  Menu,
-  MenuHandler,
-  Button,
-  MenuList,
-  MenuItem,
-} from "@material-tailwind/react";
+import { useState } from "react";
+//!!!!this is an old implementation of the language menu without translatio but still functional!!!!
+
+const defaultLocale = localStorage["locale"] ? localStorage["locale"] : "en"; // English is default locale if none is set
+const localeList = [
+  { name: "English", code: "en", lang: "English" },
+  { name: "中文", code: "zh", lang: "Chinese" },
+  { name: "русский", code: "ru", lang: "Russian" },
+  { name: "Française", code: "fr", lang: "French" },
+  { name: "Arabic", code: "ar", lang: "Arabic" },
+];
 
 function LanguageMenu() {
+  const [currentLocale, setCurrentLocale] = useState(defaultLocale);
+  const onChangeLanguage = (e: { target: { value: any } }) => {
+    const selectedLocale = e.target.value;
+    setCurrentLocale(selectedLocale);
+    localStorage.setItem("locale", selectedLocale);
+  };
+
   return (
-    <div className="absolute inset-y-0 right-10 w-6/12">
-      <p className="text-right">
-        <Menu>
-          <MenuHandler>
-            <Button className="top-0 right-0 h-10 border-1 border-textGreen text-textGreen">
-              Sprache
-            </Button>
-          </MenuHandler>
-          <MenuList className="bg-backingGreen h-40 w-40">
-            <MenuItem>Deutsch-Hochdeutsch</MenuItem>
-            <MenuItem>Enlish</MenuItem>
-            <MenuItem>Hindi</MenuItem>
-            <MenuItem>Deutsch-Hotam/Simplified</MenuItem>
-          </MenuList>
-        </Menu>
-      </p>
-    </div>
+    <p className="text-right">
+      <select
+        onChange={onChangeLanguage}
+        defaultValue={currentLocale}
+        className="bg-backingGreen border border-black rounded shadow"
+      >
+        {localeList.map((locale, index) => (
+          <option
+            key={index}
+            value={locale.code}
+            className="bg-backingGreen,
+"
+          >
+            {locale.name}
+          </option>
+        ))}
+      </select>
+    </p>
   );
 }
 

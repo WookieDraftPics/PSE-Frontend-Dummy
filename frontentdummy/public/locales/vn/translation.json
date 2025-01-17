@@ -1,0 +1,17 @@
+{
+    "login": "Đăng nhập",
+    "userName": "Tên người dùng",
+    "e-mail_adress": "Địa chỉ email",
+    "password": "Mật khẩu",
+    "repeat_password": "Lặp lại mật khẩu",
+    "forgot_password": "Quên mật khẩu?",
+    "reset_password": "Đặt lại mật khẩu",
+    "send": "Nộp",
+    "continue_as_guest": "Tiếp tục với tư cách là khách",
+    "or": "hoặc",
+    "register":"Đăng ký",
+    "create_account": "Tạo tài khoản",
+    "new_here": "Bạn mới ở đây à?",
+    "switch_screen_text": "Vậy hãy tạo tài khoản ngay bây giờ và tham gia dự án đa ngôn ngữ đầu tiên của bạn!",
+    "already_registered": "Bạn đã có tài khoản chưa?"
+}
